@@ -14,15 +14,28 @@
         status = auto
         branch = auto
         ui = true
+
+[color "status"]
+
+        added = yellow
+        changed = green
+        untracked = cyan
+        
 [core]
         excludesfile = ~/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
-[mergetool]
+
+[mergetool "p4merge"]
+        cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$REMOTE\"" "\"$PWD/$LOCAL\"" "\"$PWD/$MERGED\""
+        keepTemporaries = false
+        trustExitCode = false
         keepBackup = false
-[difftool]
-        prompt = false
+
+[difftool "p4merge"]
+        cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$REMOTE\"" "\"$LOCAL\""
+
 [help]
         autocorrect = 1
 [push]
