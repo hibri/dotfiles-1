@@ -1,2 +1,5 @@
 alias d='docker $*'
 alias d-c='docker-compose $*'
+alias dockercleanimages='docker rmi -f $(docker images -q --filter "dangling=true")'
+alias dockercleanvolumes='docker volume rm $(docker volume ls -qf dangling=true)'
+alias dockerdefaultmachine='eval $(docker-machine env default)'

@@ -24,6 +24,7 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+	autocrlf = input
 [apply]
         whitespace = nowarn
 
@@ -44,3 +45,7 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[merge]
+	tool = p4mergetool
+[mergetool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
