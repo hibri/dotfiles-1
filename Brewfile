@@ -23,7 +23,7 @@ brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'yarn'
-brew 'youtube-dl'
+brew 'hub'
 
 brew  'aircrack-ng'
 brew  'binutils'
@@ -57,10 +57,4 @@ brew  'git-lfs'
 brew  'oath-toolkit'
 brew  'httpie'
 
-
-
-brew  'terraform'
-brew  'packer'
-brew  'consul'
-brew  'azure-cli'
 
