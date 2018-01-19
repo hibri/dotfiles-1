@@ -1,0 +1,1 @@
+alias az='docker run -v ${HOME}:/root -it azuresdk/azure-cli-python:2.0.23 az $*'
