@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'puma/puma'
 
+brew 'zsh'
 brew 'ack'
 brew 'coreutils'
 brew 'go'
@@ -27,6 +28,8 @@ brew  'tcpreplay'
 brew  'tcptrace'
 brew  'ucspi-tcp' # `tcpserver` etc.
 brew  'xz'
+brew 'nmap'
+brew 'openssh'
 
 #  'other useful binaries.
 brew  'ack'
@@ -36,3 +39,8 @@ brew  'git'
 brew  'git-lfs'
 brew  'oath-toolkit'
 brew  'httpie'
+brew 'adr-tools'
+
+#k8s
+brew 'kubernetes-cli'
+brew 'kubernetes-helm'
