@@ -40,7 +40,7 @@ brew  'git-lfs'
 brew  'oath-toolkit'
 brew  'httpie'
 brew 'adr-tools'
-
+brew 'parallel'
 #k8s
 brew 'kubernetes-cli'
 brew 'kubernetes-helm'
