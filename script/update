@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# Run all dotfiles installers.
+
+set -e
+
+cd "$(dirname $0)"/..
+
+# Run Homebrew through the Brewfile
+echo "› brew bundle"
+brew bundle
+#update brew
+brew update && brew upgrade && brew cleanup
