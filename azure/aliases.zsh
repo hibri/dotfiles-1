@@ -1,1 +1,0 @@
-alias az='docker run --rm -v ${HOME}:/root -v `pwd`:/work -w /work -it microsoft/azure-cli:latest az $*'
