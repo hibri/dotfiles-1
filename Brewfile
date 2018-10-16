@@ -8,6 +8,7 @@ brew 'ack'
 brew 'coreutils'
 brew 'go'
 brew 'grc'
+brew 'prettyping'
 
 
 brew 'jq'
