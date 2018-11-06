@@ -31,6 +31,7 @@ brew  'ucspi-tcp' # `tcpserver` etc.
 brew  'xz'
 brew 'nmap'
 brew 'openssh'
+brew 'tree'
 
 #  'other useful binaries.
 brew  'ack'
