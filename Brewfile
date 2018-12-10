@@ -46,3 +46,5 @@ brew 'parallel'
 #k8s
 brew 'kubernetes-cli'
 brew 'kubernetes-helm'
+
+cask 'dotnet-sdk'
