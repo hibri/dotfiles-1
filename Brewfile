@@ -47,4 +47,6 @@ brew 'parallel'
 brew 'kubernetes-cli'
 brew 'kubernetes-helm'
 
+#MS tooling
 cask 'dotnet-sdk'
+cask 'powershell'
