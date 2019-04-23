@@ -19,7 +19,7 @@ brew 'roundup'
 brew 'unrar'
 brew 'wget'
 brew 'hub'
-
+brew 'fzf'
 brew  'hydra'
 brew  'john'
 brew  'socat'
@@ -50,3 +50,6 @@ brew 'kubernetes-helm'
 #MS tooling
 cask 'dotnet-sdk'
 cask 'powershell'
+brew 'azure-cli'
+
+brew 'terraform'
