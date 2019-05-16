@@ -32,7 +32,7 @@ brew  'xz'
 brew 'nmap'
 brew 'openssh'
 brew 'tree'
-
+brew 'tmux'
 #  'other useful binaries.
 brew  'ack'
 brew  'dark-mode'
