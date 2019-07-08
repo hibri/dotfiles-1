@@ -22,3 +22,5 @@ alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gac='git add -A && git commit -m'
 alias ge='git-edit-new'
+alias gitr='find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} $1 \;'
+alias git-recursive-reset=' find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} checkout master \; &&  find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} fetch -p \; &&  find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull --rebase origin master \; &&  find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} reset --hard  \; && find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} clean -d -fx \;' 
