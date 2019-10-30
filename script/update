@@ -5,11 +5,11 @@
 set -e
 
 cd "$(dirname $0)"/..
-
+# fix for sophos av barfing perms
+sudo chown -R $(whoami) /usr/local/share/man/man8 && chmod u+w /usr/local/share/man/man8
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
 brew bundle
 #update brew.
-# fix for sophos av barfing perms
-sudo chown -R $(whoami) /usr/local/share/man/man8 && chmod u+w /usr/local/share/man/man8
+
 brew update && brew upgrade && brew cleanup
