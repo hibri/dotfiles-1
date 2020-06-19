@@ -33,6 +33,9 @@ brew 'nmap'
 brew 'openssh'
 brew 'tree'
 brew 'tmux'
+brew 'pandoc'
+brew 'python@3.8'
+
 #  'other useful binaries.
 brew  'ack'
 brew  'dark-mode'
@@ -53,3 +56,4 @@ cask 'powershell'
 brew 'azure-cli'
 
 brew 'terraform'
+

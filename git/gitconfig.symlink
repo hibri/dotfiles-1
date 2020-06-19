@@ -57,3 +57,5 @@
 [user]
 	name = Hibri Marzook
 	email = hibri@hibri.net
+[http]
+	sslVerify = false
