@@ -56,4 +56,4 @@ cask 'powershell'
 brew 'azure-cli'
 
 brew 'terraform'
-
+brew 'awscli'
