@@ -46,6 +46,10 @@ brew  'oath-toolkit'
 brew  'httpie'
 brew 'adr-tools'
 brew 'parallel'
+
+#Docker
+cask 'docker'
+
 #k8s
 brew 'kubernetes-cli'
 brew 'kubernetes-helm'
