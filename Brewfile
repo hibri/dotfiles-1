@@ -47,6 +47,7 @@ brew  'httpie'
 brew 'adr-tools'
 brew 'parallel'
 
+
 #Docker
 cask 'docker'
 
@@ -61,3 +62,6 @@ brew 'azure-cli'
 
 brew 'terraform'
 brew 'awscli'
+
+cask 'sublime-text'
+cask 'visual-studio-code'
