@@ -958,6 +958,24 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "karabiner-elements": {
+        "version": "12.10.0",
+        "options": {
+          "full_name": "karabiner-elements",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "mos": {
+        "version": "3.1.0",
+        "options": {
+          "full_name": "mos",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -966,7 +984,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.13",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3f76a45c8d35e0d2486aad7fbd2a6c4f7d4ab782",
+        "Homebrew/homebrew-core": "3f8a30a6217599c8f7b28298872fd9d10928773b",
         "CLT": "12.0.0.0.1.1597368733",
         "Xcode": "12.0",
         "macOS": "10.15.6"
