@@ -22,6 +22,8 @@ cask 'microsoft-teams'
 cask 'slack'
 cask 'sublime-text'
 cask 'visual-studio-code'
+cask 'karabiner-elements'
+cask 'mos'
 
 brew 'jq'
 brew 'openssl'
