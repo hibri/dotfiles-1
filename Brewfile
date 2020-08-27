@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'puma/puma'
+tap 'liamg/tfsec'
 
 brew 'zsh'
 brew 'ack'
@@ -76,4 +77,7 @@ brew 'azure-cli'
 
 brew 'terraform'
 brew 'awscli'
+brew 'pre-commit'
+brew 'liamg/tfsec/tfsec'
+brew 'tflint'
 
