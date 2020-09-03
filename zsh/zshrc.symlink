@@ -52,3 +52,9 @@ bindkey "^[[B" down-line-or-beginning-search # Downexport PATH="/usr/local/opt/g
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
+# Add Sublime Text (subl)
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl:$PATH"
+# Add Visual Studio Code (code)
+export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+
