@@ -62,6 +62,7 @@ brew  'git-lfs'
 brew  'oath-toolkit'
 brew  'httpie'
 brew 'adr-tools'
+cask 'basictex'
 brew 'parallel'
 
 
