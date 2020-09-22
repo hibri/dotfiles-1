@@ -64,7 +64,7 @@ brew  'httpie'
 brew 'adr-tools'
 cask 'basictex'
 brew 'parallel'
-
+cask 'tor-browser'
 
 #Docker
 cask 'docker'
